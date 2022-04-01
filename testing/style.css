@@ -1,0 +1,24 @@
+.container1 {
+    border: 3px dashed black; 
+    width: 1500px; 
+    height: 50px;
+    }
+
+.container { 
+    border: 3px dashed black; 
+    width: 750px; 
+    height: 750px;
+    }
+
+.outer-container{
+    display: flex;  
+    flex-direction: row;   
+    
+}
+
+.container2 {
+    
+    border: 3px dashed black; 
+    width: 750px; 
+    height: 750px;
+    }
