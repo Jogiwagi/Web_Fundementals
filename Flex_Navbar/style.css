@@ -1,0 +1,42 @@
+.nav {
+    height: 50px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    overflow: hidden;
+}
+
+.nav-title {
+    color: white;
+    font-family: roboto, sans-serif;
+    align-self: center;
+    padding-left: 15px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navitem {
+    list-style: none;
+    margin-right:40px;
+    font-family: roboto, sans-serif;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    color:white;
+    background-color: rgba(56, 205, 231, 0.753);
+    margin: 10px;
+    font-size: large;
+    font-family: roboto, sans-serif;
+    box-shadow: 3px 4px black;
+    padding: 2px 25px 2px 25px;
+    display: inline-block;
+    text-align: center;
+}
