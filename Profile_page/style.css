@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0; 
+    background: black;
+    height: 80px;
+    padding: 20px 100px ;
+  }
+
+.profiletitle {
+    color:white;
+}
+
+.buttonthing {
+    background-color:rgb(55, 222, 222);
+    color: white;
+    text-align: center;
+    padding: 3px 20px 3px 20px;
+    font-size: 16px;
+}
+
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+    
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+
+.maincontainer {
+    display: flex;  
+    flex-direction: row;
+}
+
+.block1 {
+    border: 3px; 
+    width: 750px; 
+    height: 900px;
+}
+
+.block2 {
+    border: 3px; 
+    width: 750px; 
+    height: 900px;
+}
+
+.container1 {
+    width: 600px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-top: 20px;
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+
+.container2 {
+    width: 600px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.education {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.edu-header {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.edu-body {
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date {
+    color:rgba(0, 0, 0, 0.562)
+}
+
+.container3 {
+    width: 400px;
+    height: 200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.connectreq {
+    width: 600px;
+    height:300px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.connect-header {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.connectnum {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.numb {
+    border-color: grey;
+    background-color:grey;
+    border-radius:10%;
+    font-size:20pt;
+}
+
+.names1 {
+    display:flex;
+    text-decoration: none;
+    list-style:none;
+    align-items:baseline;
+    justify-content: flex-start;
+    color:black;
+    text-align:center;
+    padding:20px;
+    justify-content:space-between;
+}
+
+.names1 img {
+    height: 50px;
+    border-radius:50%;
+}
+
